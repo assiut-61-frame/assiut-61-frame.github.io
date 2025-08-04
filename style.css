@@ -116,13 +116,6 @@ html, body {
   outline: none;
   display: block;
 }
-.frame-designer-credit {
-  font-size: 0.6em;
-  color: #ccc;
-  text-align: center;
-  margin-top: -1em;
-  margin-bottom: 0.5em;
-}
 #frameOverlay {
   position: absolute;
   left: 0; top: 0;
@@ -261,4 +254,14 @@ html, body {
     gap: 10px;
     padding: 15px 0 12px 0;
   }
+}
+.footer-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.frame-designer-credit {
+  font-size: 0.75em;
+  color: #999;
 }
