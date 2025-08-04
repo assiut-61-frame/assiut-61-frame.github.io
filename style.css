@@ -116,6 +116,13 @@ html, body {
   outline: none;
   display: block;
 }
+.frame-designer-credit {
+  font-size: 0.7em;
+  color: #ccc;
+  text-align: center;
+  margin-top: -0.8em;
+  margin-bottom: 1.2em;
+}
 #frameOverlay {
   position: absolute;
   left: 0; top: 0;
